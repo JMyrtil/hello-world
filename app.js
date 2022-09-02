@@ -24,6 +24,22 @@ if (usersChoice == 'Yes'){
 
 document.write(message)
 
+let usersClean = prompt('Do you Clean it?')
+let nofilth;
+
+if (usersClean == 'Yes'){
+    usersClean = alert('Great!!')
+} 
+else if (usersClean == 'No'){
+    usersClean = alert('Yikes!!');
+} else if (usersClean == 'yes'){
+    usersClean = alert('Great!!');
+} else if (usersClean == 'no'){
+    usersClean = alert('Yikes!!');
+} else {
+    usersClean = alert("Please Don't be Funny")
+}
+
  function intro(){
     let usersChoice = prompt('Are you?');
     if (usersChoice == 'yes'){
