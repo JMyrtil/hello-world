@@ -5,6 +5,8 @@ console.log('Hello Wolrd');
 let x = 10;
 console.log(x);
 
+let nicu;
+
 let usersChoice = prompt('Do you have an air fryer?')
 let message;
 
@@ -21,3 +23,30 @@ if (usersChoice == 'Yes'){
 }
 
 document.write(message)
+
+ function intro(){
+    let usersChoice = prompt('Are you?');
+    if (usersChoice == 'yes'){
+        alert ('Yay lets get ready to clean!!')}
+        else if(usersChoice == 'Yes'){
+        alert ('Yay lets get ready to clean!!')}
+        else if (usersChoice == 'No'){
+        alert ('YOU ARE QUITE FILTHY')}
+        else if(usersChoice == 'no'){
+        alert ('YOU ARE QUITE FILTHY')}
+        else {
+        alert ('Refresh and type yes or no')}
+    }
+
+function good(){
+    while(true){
+        nicu = prompt('1-10 Would you buy our product!!, 10 being highly likely.');
+
+        if (nicu > 10){alert('Please enter a number from 1-10');}
+        else if (nicu < 1){alert('Please enter a number from 1-10');}
+        else{break;}
+    }
+    for (let i = 1; i <= nicu; i++){
+        document.write('<img src="https://i.pinimg.com/564x/44/5d/67/445d6736b7051f59e0d829e1bad612c3.jpg" alt="nice" class="nice"/>');
+    }
+}
